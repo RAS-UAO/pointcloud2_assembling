@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find pointcloud2_assembling)/launch/ls_lidar.launch"/>
+  <node name= "pointcloud2_assembler" pkg= "pointcloud2_assembling" type= "pc2_assembler.py"/>
+</launch>
